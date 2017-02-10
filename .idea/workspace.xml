@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f676bf72-e794-473f-850f-eafe4707effa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -423,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1486740885924</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Working app&#10;">
+      <created>1486741544581</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1486741544581</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -470,7 +475,8 @@
     <MESSAGE value="Description added with logic" />
     <MESSAGE value="Basic Working(Debugging Left)" />
     <MESSAGE value="debugging&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="debugging&#10;" />
+    <MESSAGE value="Working app&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working app&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
