@@ -69,31 +69,65 @@ class L1 implements ActionListener {
                     txtKg.setText("");
                     txtKg.requestFocus();
                 }
-                else
-                {
-                    Object ftitem=cbFt.getSelectedItem();
-                    String ft=(String)ftitem;
+                else {
+                    Object ftitem = cbFt.getSelectedItem();
+                    String ft = (String) ftitem;
                     int foot = Integer.parseInt(ft);
 
-                    Object lnitem=cbln.getSelectedItem();
-                    String ln=(String)ftitem;
+                    Object lnitem = cbln.getSelectedItem();
+                    String ln = (String) ftitem;
                     int Inches = Integer.parseInt(ln);
 
 
                     //convert FT to inches
-                    while(foot>0){
-                        Inches+=Inches+12;
+                    while (foot > 0) {
+                        Inches += Inches + 12;
                         foot--;
                     }
-                    double height= inches*2.54;
+                    double height = Inches * 2.54;
 
-                    double bmi=weight/(height*height);
-                    bmi=bmi*1000;
+                    double bmi = weight / (height * height);
+                    bmi = bmi * 1000;
+
+
+                    String msg;
+                    if (bmi < 18.5) msg = "You are underweight";
+                    else if (bmi >= 18.5 & bmi < 25) msg = "You are normal";
+                    else if (bmi >= 25 && bmi < 30) msg = "You are overweight";
+                    else msg = "You are Obese";
+
+
+                    NumberFormat nf = NumberFormat.getInstance();
+                    nf.setMaximumFractionDigits(2);
+                    String bmis = nf.format(bmi);
+
+
+                    JOptionPane.showMessageDialog(c, "BMI=" + bmis + msg);
+                    txtKg.setText("");
+                    cbFt.setSelectedItem("1");
+                    cbln.setSelectedItem("0");
 
 
                 }
             }
+
+            catch(NumberFormatException error){
+                JOptionPane.showMessageDialog(c,"Enter proper weight");
+                txtKg.setText("");
+                txtKg.requestFocus();;
+            }
         }
     }
 }
+
+    public static void main(String[] args) {
+        B1 b= new B1();
+        b.setSize(300,150);
+        b.setVisible(true);
+        b.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        b.setTitle("Dope BMI Calculator");
+        b.setLocation(300,300);
+        b.setResizable(false);
+    }
+
 }
