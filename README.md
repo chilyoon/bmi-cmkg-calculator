@@ -1,11 +1,13 @@
 # BMICalculator
 - A simple BMI Calculator in JAVA Swing
-
+- Learn about you physical fitness in few seconds.
+ - BMI is a very good indicator however keep in mind it doesn't account for your fat percentage or muscle mass
+  which itself also plays a big role in determining your physical fitness.
 ###HOW TO CALCULATE YOUR BODY MASS INDEX OR BMI
 
 BMI is your weight (in kilograms) over your height squared (in centimeters).
 
-For Instance, the BMI of a person who is 5’3" and weighs 125 lbs is calculated as follows:
+For Basic Algorithm.
 
 1- Convert Height from Ft to inches and multiply by 2.54;
 

@@ -81,18 +81,18 @@ class L1 implements ActionListener {
 
                     //convert FT to inches
                     while (foot > 0) {
-                        Inches += Inches + 12;
+                        Inches += 12;
                         foot--;
                     }
                     double height = Inches * 2.54;
 
                     double bmi = weight / (height * height);
-                    bmi = bmi * 100000;
+                    bmi = bmi * 10000;
 
 
                     String msg;
                     if (bmi < 18.5) msg = "You are underweight";
-                    else if (bmi >= 18.5 & bmi < 25) msg = "You are normal";
+                    else if (bmi >= 18.5 & bmi < 25) msg = "  Congratulations! .You are normal. Keep up the good work!";
                     else if (bmi >= 25 && bmi < 30) msg = "You are overweight";
                     else msg = "You are Obese";
 
