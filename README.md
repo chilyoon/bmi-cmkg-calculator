@@ -25,3 +25,8 @@ A healthy BMI ranges between 18.5 and 25.
 ## Screenshots
 
 ![Screnshot](https://github.com/devyash/BMICalculator/blob/master/Screenshots/BMI%201.png)
+
+![Screnshot](https://github.com/devyash/BMICalculator/blob/master/Screenshots/BMI%202.png)
+
+
+![Screnshot](https://github.com/devyash/BMICalculator/blob/master/Screenshots/BMI%203.png)
