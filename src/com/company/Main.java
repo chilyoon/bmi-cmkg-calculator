@@ -87,7 +87,7 @@ class L1 implements ActionListener {
                     double height = Inches * 2.54;
 
                     double bmi = weight / (height * height);
-                    bmi = bmi * 1000;
+                    bmi = bmi * 100000;
 
 
                     String msg;
@@ -122,7 +122,7 @@ class L1 implements ActionListener {
 
     public static void main(String[] args) {
         B1 b= new B1();
-        b.setSize(300,150);
+        b.setSize(300,250);
         b.setVisible(true);
         b.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         b.setTitle("Dope BMI Calculator");
