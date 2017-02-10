@@ -4,14 +4,8 @@ import javax.swing.*;
 import java.awt.event.*;
 import java.text.*;
 
-public class Main {
 
-    public static void main(String[] args) {
-	// write your code here
-    }
-}
-
-class B1 extends JFrame {
+public class B1 extends JFrame {
     Container c;
     JLabel lbKG, lblFt, lblln, lblHT;
     JTextField txtKg;
