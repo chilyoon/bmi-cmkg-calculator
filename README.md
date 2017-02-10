@@ -1,7 +1,7 @@
 # BMICalculator
 - A simple BMI Calculator in JAVA Swing
 - Learn about you physical fitness in few seconds.
- - BMI is a very good indicator however keep in mind it doesn't account for your fat percentage or muscle mass
+- BMI is a very good indicator however keep in mind it doesn't account for your fat percentage or muscle mass
   which itself also plays a big role in determining your physical fitness.
 ###HOW TO CALCULATE YOUR BODY MASS INDEX OR BMI
 
@@ -19,3 +19,8 @@ For Basic Algorithm.
 
 
 A healthy BMI ranges between 18.5 and 25.
+
+
+
+
+
