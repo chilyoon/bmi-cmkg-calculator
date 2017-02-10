@@ -5,7 +5,7 @@ import java.awt.event.*;
 import java.text.*;
 
 
-public class B1 extends JFrame {
+public class Main extends JFrame {
     Container c;
     JLabel lbKG, lblFt, lblln, lblHT;
     JTextField txtKg;
@@ -13,7 +13,7 @@ public class B1 extends JFrame {
     JPanel p1, p2, p3;
     JButton btnSubmit;
 
-    B1() {
+    Main() {
         c = getContentPane();
         c.setLayout(new BoxLayout(c, BoxLayout.Y_AXIS));
         p1 = new JPanel(new FlowLayout(FlowLayout.LEFT));
@@ -115,7 +115,7 @@ class L1 implements ActionListener {
 }
 
     public static void main(String[] args) {
-        B1 b= new B1();
+        Main b= new Main();
         b.setSize(300,250);
         b.setVisible(true);
         b.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
